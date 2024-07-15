@@ -1,2 +1,25 @@
+.item {
+  /* common styles for all items */
+  background-color: #f0f0f0; /* default background color */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
 
-/* Your CSS Code here. */
+.item1 {
+  background-color: #ff69b4; /* pink */
+}
+
+.item2 {
+  background-color: #33cc33; /* green */
+}
+
+.item3 {
+  background-color: #66CCCC; /* blue */
+}
+.holder{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	
+}
